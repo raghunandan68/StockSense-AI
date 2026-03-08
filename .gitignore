@@ -1,1 +1,52 @@
-.venv
+# ── Virtual Environment ──────────────────────────────────────────
+.venv/
+venv/
+env/
+
+# ── Python Cache ─────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pycache
+
+# ── Auto-Generated Data Files (recreated on first run) ───────────
+data/inventory.csv
+data/sales_history.csv
+
+# ── Streamlit Cache ──────────────────────────────────────────────
+.streamlit/
+
+# ── OS Files ─────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+Thumbs.db
+ehthumbs.db
+
+# ── IDE / Editor ─────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Logs & Temp Files ────────────────────────────────────────────
+*.log
+*.tmp
+*.temp
+
+# ── Jupyter (if used) ────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── Build / Dist ─────────────────────────────────────────────────
+dist/
+build/
+*.egg-info/
+
+# ── Exported Reports (user downloads, not source code) ───────────
+*.zip
+restock_order_*.csv
+inventory_report_*.csv
+```
+
+---
